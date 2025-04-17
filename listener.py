@@ -66,5 +66,5 @@ class Listener:
          print(result)
 
 
-my_listener = Listener("192.168.0.123", 80)
+my_listener = Listener("192.168.0.123", 80) # change the ip address to your ip address to get your ip address in windows write the is camman in cmd "ipconfig" , in linux write the is cammand in terminal "ifconfig"
 my_listener.run()
