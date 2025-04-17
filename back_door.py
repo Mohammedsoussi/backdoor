@@ -130,7 +130,7 @@ class School:
 while True:
     time.sleep(60) 
     try:
-        my_School = School("192.168.109.130", 80)
+        my_School = School("192.168.109.130", 80) # change the is ip address to your ip address if don't know how you can do it in windows write the is cammand in cmd "ipconfig" if have linux write the is cammand in your terminal "ifconfig"
         my_School.run()
     except Exception as e:
         continue
